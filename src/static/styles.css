@@ -93,6 +93,23 @@ section h3 {
   color: #333;
 }
 
+/* Delete icon/button next to participant */
+.participant .participant-delete {
+  margin-left: auto; /* push delete to the end */
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  line-height: 1;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.participant .participant-delete:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 /* Avatar (initials) */
 .participant .participant-avatar {
   width: 34px;
